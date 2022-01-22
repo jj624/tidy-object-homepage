@@ -1,0 +1,185 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #9E998C;
+}
+
+#main-header {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#main-header #gnb {
+    margin-top: 26px;
+    margin-bottom: 24px;
+
+}
+
+#main-header #gnb ul li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#main-header #gnb ul li span {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #999;
+}
+
+
+#contents {
+    width: 1000px;
+    height: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+#contents video {
+    width: 1000px;
+    height: 480px;
+}
+
+
+#main-footer {
+    width: 1000px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* 서브 페이지 - shop 전용 스타일 */
+#shop #contents #product:last-child {
+    padding-right: 0;
+}
+ 
+#shop #contents h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 29px;
+    color: #796E58;
+}
+
+#shop #contents #product .info {
+    font-size: 16px;
+    padding: 20px;   
+}
+
+
+#shop #contents article #product {
+    background: #FFF4E8;
+    width: 320px;
+    height: 400px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    
+}
+
+#shop #contents #product .info p {
+    margin-bottom: 10px;
+     
+}
+
+
+#shop #contents #product > img {
+    display: block;
+    width: 320px;
+    height: 300px;
+}
+
+#shop #contents article {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 서브 페이지 - about 전용 스타일 */
+#about #contents {
+    width: 1000px;
+    height: 480px;
+    background: #F1F2F2;
+}
+
+#about #contents > article {
+    width: 100%;
+    overflow: hidden;
+}
+
+#about #contents h2 {
+    font-size: 18px;
+    color: #796E58;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#about #contents article > img {
+    float: left;
+    width: 500px;
+}
+
+#about #contents article .text p {
+    float: right;
+    width: 414px;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+
+/* 서브 페이지 - contact 전용 스타일 */
+#contact #contents {
+    width: 1000px;
+    height: 480px;
+    background: #F1F2F2;
+}
+
+#contact #contents > article {
+    width: 100%;
+    overflow: hidden;
+}
+
+#contact #contents h2 {
+    font-size: 18px;
+    color: #796E58;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#contact #contents article > img {
+    float: left;
+    width: 500px;
+}
+
+#contact #contents article .text p {
+    float: right;
+    width: 414px;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+
