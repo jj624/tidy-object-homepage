@@ -73,6 +73,10 @@ a {
 
 
 /* 서브 페이지 - shop 전용 스타일 */
+#shop #contents a {
+    color: #000;
+}
+
 #shop #contents #product:last-child {
     padding-right: 0;
 }
@@ -100,7 +104,7 @@ a {
     
 }
 
-#shop #contents #product .info p {
+#shop #contents #product .info a {
     margin-bottom: 10px;
      
 }
@@ -146,6 +150,8 @@ a {
     float: right;
     width: 414px;
     font-size: 16px;
+    padding-right: 30px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
